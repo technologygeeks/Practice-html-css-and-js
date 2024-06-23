@@ -32,13 +32,16 @@ input{
 img{
     height: 270px;
     width: 270px;
+    border-radius:15px;
 }
 .box{
     border-color: black;
     border-width: 4px;
+    border-radius:12px;
     border-style: solid;
     display: inline-block;
     width: 300px;
+    padding:20px;
 }
 .products{
     text-align: center;
@@ -60,4 +63,23 @@ h2{
 .contact{
     text-align: center;
     cursor: pointer;
+}
+/* small changes */
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about p{
+    margin-top:20px;
+    width:700px;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
